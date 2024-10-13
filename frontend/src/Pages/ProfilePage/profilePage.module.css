@@ -1,0 +1,51 @@
+.container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dataBox {
+	width: 80vw;
+	height: 50vh;
+	background-color: #f0f0ff;
+	padding: 1rem;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px #eeeeee;
+	border: 1px solid #eeeeee;
+}
+
+.boxHead {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.eachSection {
+	width: 50%;
+}
+.sectionHead {
+	font-size: 18px;
+	font-weight: 500;
+	color: #222222;
+}
+.sectionValue {
+	font-size: 16px;
+	font-weight: 400;
+	color: #666666;
+}
+
+.switchBox {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.tableBox {
+	background-color: #ffffff;
+	width: 100%;
+	height: calc(100% - 8.5rem);
+	border-radius: 6px;
+	padding: 1rem;
+	overflow-y: scroll;
+}

@@ -1,0 +1,22 @@
+.headContainer {
+	border: 1px solid #dfdfdf;
+	display: flex;
+	background-color: #e3e3ff;
+}
+.eachHead {
+	padding: 0.5rem;
+	font-weight: 500;
+	color: #333333;
+}
+.borderRight {
+	border-right: 1px solid #dfdfdf;
+}
+
+.eachRow {
+	border: 1px solid #dfdfdf;
+	display: flex;
+}
+.eachCell {
+	padding: 0.5rem;
+	color: #333333;
+}

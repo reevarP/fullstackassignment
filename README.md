@@ -124,13 +124,16 @@ Security Measures
         Validation: Email format, password length, and other checks are applied on registration and login.
 
 Environment Variables
+
     Create a .env file in both frontend and backend directories with the following variables:
+    
         Backend (backend/.env):
             MONGO_URI=your_mongo_db_connection_string
             JWT_SECRET=your_jwt_secret
             EMAIL_USER=your_email@example.com
             MAILTRAP_USER=your_mailtrap_username
             MAILTRAP_PASS=your_mailtrap_password
+            
         Frontend (frontend/src/Services/constants.js):
             baseUrl=http://localhost:3001
 

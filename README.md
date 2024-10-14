@@ -51,24 +51,23 @@ Technologies Used
 
 File Structure
 
-/fullstackassignment
-│
-├── /frontend # React frontend
-│ ├── /src
-│ ├── /public
-│ ├── package.json
-│ └── .env
-│
-├── /backend # Express backend
-│ ├── /models # Mongoose schemas (e.g., User.js)
-│ ├── /routes # API routes (e.g., auth.js, profile.js)
-│ ├── /middleware # Custom middleware (e.g., authMiddleware.js)
-│ ├── package.json
-│ └── .env
-│
-├── .gitignore # Ignore node_modules and environment files
-├── README.md # Project documentation
-└── LICENSE # License file
+1/fullstackassignment
+
+    /frontend # React frontend
+        /src
+        /public
+        package.json
+        .env
+
+    /backend # Express backend
+        /models # Mongoose schemas (e.g., User.js)
+        /routes # API routes (e.g., auth.js, profile.js)
+        /middleware # Custom middleware (e.g., authMiddleware.js)
+        package.json
+        .env
+
+    .gitignore # Ignore node_modules and environment files
+    README.md # Project documentation
 
 Features and Endpoints
 
